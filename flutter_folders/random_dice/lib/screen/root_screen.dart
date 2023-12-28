@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:random_dice/screen/home_screen.dart';
+import 'package:random_dice/screen/settings_screen.dart';
+import 'dart:math';
+import 'package:shake/shake.dart';
 
 class RootScreen extends StatefulWidget{
   const RootScreen({Key? key}) : super(key:key);
@@ -12,6 +15,9 @@ class RootScreen extends StatefulWidget{
 class _RootScreenState extends State<RootScreen> with
 TickerProviderStateMixin{
   TabController? controller;
+  double threshold = 2.7;
+  int number = 1;
+  ShakeDetector? shakeDetector;
 
   @override
   void initState(){
@@ -19,7 +25,22 @@ TickerProviderStateMixin{
 
     controller = TabController(length: 2, vsync: this);
 
+    void onPhoneShake(){
+      final rand = new Random();
+
+      setState((){
+        number = rand.nextInt(5) + 1;
+      });
+
     controller!.addListener(tabListener);
+    shakeDetector = ShakeDetector.autoStart(
+      shakeSlopTimeMS: 100,
+      shakeThresholdGravity: threshold,
+      onPhoneShake: onPhoneShake,
+    );
+
+
+    }
   }
 
   tabListener(){
@@ -29,6 +50,7 @@ TickerProviderStateMixin{
   @override
   dispose(){
     controller!.removeListener(tabListener);
+    shakeDetector!.stopListening();
     super.dispose();
   }
 
@@ -47,18 +69,18 @@ TickerProviderStateMixin{
 
   List<Widget> renderChildren() {
     return [
-      HomeScreen(number:1),
-      Container(
-        child: Center(
-          child: Text(
-            'Tab 2',
-            style: TextStyle(
-              color: Colors.white,
-            ),
-          ),
-        ),
+      HomeScreen(number:number),
+      SettingsScreen(
+        threshold:threshold,
+        onThresholdChange: onThresholdChange,
       ),
     ];
+  }
+
+  void onThresholdChange(double val){
+    setState((){
+      threshold = val;
+    });
   }
 
   BottomNavigationBar renderBottomNavigation() {
@@ -67,6 +89,9 @@ TickerProviderStateMixin{
         onTap: (int index){
           setState(() {
             controller!.animateTo(index);
+
+
+
           });
         },
         items: [
