@@ -1,0 +1,232 @@
+--session 1 persona list--: 
+ Sure! Here are the extracted personas based on the dialogue:
+
+Speaker 1's persona:
+
+* is a fan of Harry Potter and draws it in class instead of taking notes.
+* is in Gryffindor house.
+* has long hair.
+* is interested in spells and pink things.
+
+Speaker 2's persona:
+
+* is a fan of Harry Potter and did marketing for the books.
+* is in Hufflepuff house.
+* loves pink and has pink hiking boots.
+* is practical and prefers boots with good traction.
+* enjoys folk music and Bob Dylan.
+--session 2 persona list--: 
+ Sure! Here are the extracted personas based on the dialogue:
+
+Speaker 1's persona:
+
+* likes Bob Dylan.
+* likes the second Harry Potter book.
+* has not been to a Dylan concert.
+* wants to go to a Dylan concert.
+* likes to draw.
+* likes drawing Harry Potter related stuff.
+
+Speaker 2's persona:
+
+* likes Bob Dylan.
+* has been to a few Dylan concerts.
+* likes the first Harry Potter book.
+* did marketing work for some Potter books.
+* is not good at drawing.
+* suggests an internship in an art department for Speaker 1.
+--session 3 persona list--: 
+ Sure! Here are the extracted personas based on the dialogue:
+
+Speaker 1's persona:
+
+* applied for an internship in the art department.
+* is excited about the opportunity.
+* has allergies and gets ear infections frequently.
+* is sympathetic to Speaker 2's dilemma.
+* prefers to stay in their own lane and avoid conflict.
+* has a teacher who is mean and bullies students.
+
+Speaker 2's persona:
+
+* is working on a project to improve J.K. Rowling's image.
+* has conflicting professional and personal views.
+* is allergic to pollen and experiences seasonal allergies.
+* is a fan of Harry Potter but dislikes J.K. Rowling's opinions.
+* is at a crossroads and unsure of what to do.
+* has a sense of humor and finds Speaker 1's allergies amusing.
+--current dialogue--: 
+['Speaker 1: I just got an email from my doctor about a new allergy medication I will forward to you to share with your doctor.', "Speaker 2: Oh great, thank you. I'm surprised my doctor hasn't alerted his patients yet. Allergies can be annoying, so anything that helps alleviate them is great.", "Speaker 1: You're more than welcome, I am glad I was able to help. Allergies can be a real a nuisance", 'Speaker 2: Did you doctor say if it would be expensive or how effective it would be? I want to not have to worry about allergies when hiking.', 'Speaker 1: The doctor said that i would be very expensive, but the price depends on the insurance you have. I think you have great insurance ', "Speaker 2: Yes, the health insurance my job provides is good. It would be hell if I had no other choice but to work with Rowling while at the same time I couldn't afford the new allergy medicine.", "Speaker 1: I've got to say I think it is amazing that you are working with JK Rowling. How is that?", 'Speaker 2: It was fun when it involved marketing for her books. However, I do not want to help her build her image. I hate her views, so it would be like torture for me.', "Speaker 1: Oh I totally get that, that didn't affect you at all when doing your marketing?", "Speaker 2: No, not at all. Hey, did your doctor say there were any side effects to that new allergy medication? I've been trying to be more conscious of how everything I put into my body affects me lately. ", "Speaker 1: We didn't get into too much detail, but in the email I sent you he gave you his number so you can call if you have any questions", "Speaker 2: Great. Maybe your doctor and my doctor should exchange emails so they can send each other emails. Maybe at times my doctor knows something that your doctor doesn't know."]
+--session 1 persona list--: 
+ Sure! Here are the extracted personas based on the dialogue:
+
+Speaker 1's persona:
+
+* loves fall and wearing leather boots and skirts.
+* enjoys music.
+* has long hair.
+* is almost 6 feet tall.
+* is looking for music for the weekend.
+
+Speaker 2's persona:
+
+* is in a PhD program.
+* enjoys reading, especially crime books.
+* used to hate coffee but now loves cappuccinos with caramel flavor.
+* is short at 4 feet 11 inches.
+* prefers instrumental music because she has trouble understanding lyrics.
+--session 2 persona list--: 
+ Sure! Here are the extracted personas based on the dialogue:
+
+Speaker 1's persona:
+
+* is working on their PhD program.
+* is looking for book recommendations.
+* enjoys watching thriller movies.
+* has not read a book in a long time.
+* is excited to read a new book.
+
+Speaker 2's persona:
+
+* is in the early stages of their PhD program.
+* is exploring different research paths.
+* enjoys reading and recommending books.
+* has a favorite author (Elizabeth Haynes) and book (In the Darkest Corner).
+* values cozy coffee shops and reading as a pastime.
+* is busy with work and studying.
+--session 3 persona list--: 
+ Sure! Here are the extracted personas based on the dialogue:
+
+Speaker 1's persona:
+
+* is studying or working hard.
+* has little time for leisure activities like reading or watching movies.
+* enjoys going to coffee shops and trying different types of coffee.
+* prefers a relaxing and cozy atmosphere when drinking coffee.
+* likes scones and other pastries.
+
+Speaker 2's persona:
+
+* is also studying and busy.
+* is close to finishing their PhD.
+* appreciates kind words and encouragement.
+* is looking for reliable crowdsourcing for their study.
+* enjoys coffee but doesn't have much time to enjoy it.
+* prefers jazz music over modern lyrics.
+--current dialogue--: 
+['Speaker 1: The coffee shop had caramel cappaccino scones today! I thought of you. How soon until we get to go?', "Speaker 2: Mmm delicious! How about next Saturday morning we get some? I'm planning on biking then too if you're up for that!", 'Speaker 1: I love biking! How do you feel about going in the morning?', "Speaker 2: That would be great. I don't like drinking coffee past the morning or I won't be able to fall asleep at 10pm! ", 'Speaker 1: i dont drink coffee actually! ive switched to matcha- i heard its healthier!', "Speaker 2: I've tried matcha but I'm not a fan of how it looks green. I heard that drinking coffee daily (with less sugar) has health benefits for people!", 'Speaker 1: oh really? i dont think i can drink black coffee. I also actually like green food! Makes the plate colorful', "Speaker 2: I can't drink black coffee either, I always need some kind of creamer and maybe a little sugar. I don't like the color green! What other green foods do you eat besides vegetables?", "Speaker 1: I've loved celery ever since my dad made me celery with peanut butter and raisins! Do you have a childhood favorite snack?", "Speaker 2: What type of food is celery considered? I've never heard of adding raisins to peanut butter and celery! I really like peanut butter and banana toast!", 'Speaker 1: I love that too! Maybe we should start a bakery ourselves!', "Speaker 2: Haha, we will have to discuss that far in the future when we're old!"]
+--session 1 persona list--: 
+ Sure! Here are the extracted personas based on the dialogue:
+
+Speaker 1's persona:
+
+* likes to drink a lot
+* enjoys rebel IPAs
+* has a chihuahua
+
+Speaker 2's persona:
+
+* is a single mother of four children
+* loves ice cream (specifically Ben & Jerry's)
+* has two golden retrievers
+* is struggling in her relationship (husband left her)
+* is looking for comfort and support (through conversation and ice cream)
+--session 2 persona list--: 
+ Sure! Here are the extracted personas based on the dialogue:
+
+Speaker 1's persona:
+
+* loves dressing up pets (chihuahua)
+* enjoys spending time with friends and family (mentions "the kids")
+* is a brewer (mentions new IPAS)
+* is supportive and offering help (offers to watch the kids, brew beer)
+
+Speaker 2's persona:
+
+* has a difficult situation (going through a divorce)
+* has children (mentions "the kids")
+* appreciates support and company (accepts offer to watch kids, thanks for support)
+* prefers hard liquor or wine (mentions not being a beer person)
+--session 3 persona list--: 
+ Sure! Here are the extracted personas based on the dialogue:
+
+Speaker 1's persona:
+
+* is a supportive and caring friend.
+* is willing to help with childcare and other responsibilities.
+* enjoys spending time with children and wants to make sure they are happy and well-cared for.
+* is a good listener and is there for Speaker 2 during a difficult time.
+* enjoys ice cream, parks, and dogs.
+* is willing to provide a safe and warm place for Speaker 2 and the children to stay.
+* is open to learning new recipes and cooking techniques.
+
+Speaker 2's persona:
+
+* is a single mother dealing with a difficult situation.
+* is struggling to cope with the absence of her children's father.
+* is grateful for Speaker 1's support and willingness to help.
+* is a caring and nurturing parent who wants the best for her children.
+* is a bit of a perfectionist and wants to make sure everything is done exactly right.
+* enjoys baking and cooking, especially brownies and meatballs.
+* is a social person who enjoys spending time with friends and having fun.
+* appreciates a good margarita and is willing to share the recipe with Speaker 1.
+--current dialogue--: 
+['Speaker 1: I know you said your girls loved Frozen, so I borrowed both Frozen movies from a neighbor to bring over.  How does that sound?', "Speaker 2: They would love that! It would calm them down for a little and I'll be able to get a small break. Maybe you could bring over some cookies and cream ice cream too?", "Speaker 1: If I'm bringing ice cream and Frozen you better be cooking us something Hot! Haha.", 'Speaker 2: Ill do you one even better, Ill get some rebel ipas and cook some meatballs for you!', "Speaker 1: Make extra please! I'll feed some to my dog she loves them too.", "Speaker 2: What is your dog's name?", "Speaker 1: Rebel. Because she's always rebelling against me. Speaking of which are any of your kids rebelling against you?", 'Speaker 2: All of them! I have a teenager, obviously who never listens. Then 3 youngers ones, ages 8, 4, and 3.', "Speaker 1: It's normal, especially with what's going on. I'd be a brooding mess. I think you're handling it well though.", 'Speaker 2: Thank you. I appreciate that. Its been rough but I am making it through. Maybe I can drop the kids off with their dad for a weekend and stay in your guest house and have a relaxing weekend?', "Speaker 1: Relaxing? I don't think so. We're going to have a pool party! Gotta keep you young at heart.", 'Speaker 2: As long as you make some good margaritas, I am always down to have a good time! A pool party would a great break.']
+--session 1 persona list--: 
+ Sure! Here are the extracted personas based on the dialogue:
+
+Speaker 1's persona:
+
+* is italian
+* is well-educated
+* loves to cook
+* is a gambler (likes to play the numbers)
+* has a large family (5 brothers, 2 sisters)
+* is friendly and outgoing
+
+Speaker 2's persona:
+
+* is also italian
+* has an italian heritage
+* is welcoming and friendly
+* is a painter (loves watercolors and painting nature)
+* has a large family (oldest of 3 sisters and a little brother)
+* works in finance (looks at the ticker every day)
+* is a gambler (considers wall street a form of gambling)
+--session 2 persona list--: 
+ Sure! Here are the extracted personas based on the dialogue:
+
+Speaker 1's persona:
+
+* loves Italian food.
+* works as a chef in an Italian restaurant.
+* enjoys their job and finds it rewarding.
+* has a busy and active lifestyle.
+* values creativity and variety in their work.
+
+Speaker 2's persona:
+
+* loves pizza.
+* has a boring office job.
+* hates their job and finds it unfulfilling.
+* values staying busy and active.
+* is considering a change in their career.
+--session 3 persona list--: 
+ Sure! Here are the extracted personas based on the dialogue:
+
+Speaker 1's persona:
+
+* works at a place with a new pizza oven
+* prefers Magherita pizza
+* is interested in introducing Speaker 2 to a potential employer
+* has a neighbor looking for a project manager
+
+Speaker 2's persona:
+
+* is looking for a new job
+* prefers pizza with extra sausage and pepperoni
+* is interested in traveling for work
+* has three little sisters in college and a brother who just graduated
+* is bored with their current job in finance
+--current dialogue--: 
+['Speaker 1: What kind of crust do you like for your pizzas?', 'Speaker 2: I like thin crust for my pizza', 'Speaker 1: I like thin crust better too!  It seems like the toppings stand out more with less crust.  So what kind of creative work would you be interested in, given you are bored with your office job....?', "Speaker 2: I would love to make pottery and mosaic's on tables.  I think that I could have store with these things that I make as well as essential oil candles made with soy that I would learn to make.  I could add new things as I make them.", "Speaker 1: Wow, that's awesome!  I'm always a bit envious of those who can create beautiful pieces of art.  My art is making a pizza....lol!  But I love it, and I guess that's what matters.  So have you ever been to Italy?", 'Speaker 2: I make pizza every Saturday night for my family.  We love it.  I have never been to Italy, but would love to go at some point.', 'Speaker 1: I did visit there once, but the flight there is so long.  I would love to visit again someday, however.  Where all have you traveled?', 'Speaker 2: I have been to Vegas, Tortola, Half Moon Kay, Nassau, and St. Thomas.  I have also been to Florida a couple of times.', "Speaker 1: I think that's great.  I have been on a cruise and visited some places during that.  Would love to take a road trip out west, and see Yellowstone, the Grand Canyon, and Vegas.  Did you like Vegas?", "Speaker 2: I loved Vegas.  We spent a week there.  I loved the sites and the lights.  It is a very pretty place to visit with lots to see.  Don't get sucked in my just the casino's.  There is so much more to it than just that.  ", "Speaker 1: Yes, I always wondered about that.  All you ever seem to hear about is the gambling aspect, and I'm not a big gambler.  So its nice to hear I can enjoy without that.", "Speaker 2: We did a little gambling at the penny slots and did win a couple hundred, but there is the fountains at the Bellagio and the botanical gardens, as well as Caesar's Place.  There are the Pyramids and the Eifel Tower.  It has so much, plus you should go to old Vegas strip"]
