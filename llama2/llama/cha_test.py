@@ -8,6 +8,7 @@ import sys
 import json
 import jsonlines
 from llama import Llama
+from tqdm import tqdm
 
 
 def main(
@@ -79,7 +80,7 @@ def main(
     print(len(final))
  
     persona_list=[]
-    for i in range(len(final)):
+    for i in tqdm(range(len(final))):
         results = generator.chat_completion(
             final[i],  # type: ignore
             max_gen_len=max_gen_len,
