@@ -1,6 +1,7 @@
 # Copyright (c) Meta Platforms, Inc. and affiliates.
 # This software may be used and distributed according to the terms of the Llama 2 Community License Agreement.
-
+import os
+os.environ['CUDA_VISIBLE_DEVICES'] = '2,3,4'
 from typing import Optional
 from ast import literal_eval
 import fire
@@ -8,6 +9,7 @@ import sys
 import json
 import jsonlines
 from llama import Llama
+from tqdm import tqdm
 
 
 def main(
@@ -79,7 +81,9 @@ def main(
     print(len(final))
  
     persona_list=[]
-    for i in range(len(final)):
+    for i in tqdm(range(len(final))):
+        if i>3:
+            assert False
         results = generator.chat_completion(
             final[i],  # type: ignore
             max_gen_len=max_gen_len,
