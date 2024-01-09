@@ -15,6 +15,15 @@ class HomeScreen extends StatelessWidget {
     position: companyLatLng,
   );
 
+  static final Circle circle = Circle(
+    circleId: CircleId('choolCheckCircle'),
+    center: companyLatLng,
+    fillColor: Colors.blue.withOpacity(0.5),
+    radius: 100,
+    strokeColor: Colors.blue,
+    strokeWidth: 1,
+  );
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -39,7 +48,9 @@ class HomeScreen extends StatelessWidget {
                         target: companyLatLng,
                         zoom: 16,
                       ),
-                      markers:Set.from([marker])
+                      myLocationEnabled: true,
+                      markers: Set.from([marker]),
+                      circles: Set.from([circle]),
                     ),
                   ),
                   Expanded(
@@ -50,7 +61,47 @@ class HomeScreen extends StatelessWidget {
                             color: Colors.blue, size: 50.0),
                         const SizedBox(height: 20.0),
                         ElevatedButton(
-                          onPressed: () {},
+                          onPressed: () async {
+                            final curPosition =
+                            await Geolocator.getCurrentPosition();
+
+                            final distance = Geolocator.distanceBetween(
+                              curPosition.latitude,
+                              curPosition.longitude,
+                              companyLatLng.latitude,
+                              companyLatLng.longitude,
+                            );
+
+                            bool canCheck = distance < 100;
+                            showDialog(
+                              context: context,
+                              builder: (_) {
+                                return AlertDialog(
+                                  title: Text('출근하기'),
+                                  content: Text(
+                                    canCheck
+                                        ? '출근을 하시겠습니까?'
+                                        : '출근할 수 없는 위치입니다.',
+                                  ),
+                                  actions: [
+                                    TextButton(
+                                      onPressed: () {
+                                        Navigator.of(context).pop(false);
+                                      },
+                                      child: Text('취소'),
+                                    ),
+                                    if (canCheck)
+                                      TextButton(
+                                        onPressed: () {
+                                          Navigator.of(context).pop(true);
+                                        },
+                                        child: Text('출근하기'),
+                                      ),
+                                  ],
+                                );
+                              },
+                            );
+                          },
                           child: Text('출근하기!'),
                         ),
                       ],
@@ -85,27 +136,24 @@ class HomeScreen extends StatelessWidget {
   Future<String> checkPermission() async {
     final isLocationEnabled = await Geolocator.isLocationServiceEnabled();
 
-    if(!isLocationEnabled){
+    if (!isLocationEnabled) {
       return '위치 서비스를 활성화해주세요.';
     }
 
     LocationPermission checkedPermission = await Geolocator.checkPermission();
 
-    if(checkedPermission == LocationPermission.denied){
+    if (checkedPermission == LocationPermission.denied) {
       checkedPermission = await Geolocator.requestPermission();
 
-      if(checkedPermission == LocationPermission.denied){
-
+      if (checkedPermission == LocationPermission.denied) {
         return '위치 권한을 허가해주세요.';
       }
     }
 
-    if(checkedPermission == LocationPermission.deniedForever){
+    if (checkedPermission == LocationPermission.deniedForever) {
       return '앱의 위치 권한을 설정에서 허가해주세요.';
     }
 
     return '위치 권한이 허가 되었습니다.';
-
-
   }
 }
