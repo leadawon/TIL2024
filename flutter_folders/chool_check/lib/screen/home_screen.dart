@@ -73,7 +73,7 @@ class HomeScreen extends StatelessWidget {
                             );
 
                             bool canCheck = distance < 100;
-                            showDialog(
+                            final result = await showDialog<bool>(
                               context: context,
                               builder: (_) {
                                 return AlertDialog(
@@ -101,6 +101,7 @@ class HomeScreen extends StatelessWidget {
                                 );
                               },
                             );
+                            print(result); // await사용해야함.
                           },
                           child: Text('출근하기!'),
                         ),
