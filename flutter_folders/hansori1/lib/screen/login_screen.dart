@@ -96,7 +96,7 @@ class _LoginScreenState extends State<LoginScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            TextFormField(
+            TextFormField( // TODO: 이메일 형태체크하는 코드
               controller: _emailController,
               decoration: InputDecoration(
                 labelText: 'Email',

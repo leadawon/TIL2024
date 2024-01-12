@@ -98,7 +98,7 @@ class _SignupScreenState extends State<SignupScreen> {
               ),
             ),
             SizedBox(height: 16.0),
-            TextFormField(
+            TextFormField(// TODO: 이메일 형태체크하는 코드
               controller: _emailController,
               decoration: InputDecoration(
                 labelText: 'Email',
