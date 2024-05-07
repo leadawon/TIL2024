@@ -1,0 +1,10 @@
+bigdata/
+text/
+processed_passages/
+logs/
+dataset/
+checkpoint/
+index/
+2050iter_flat/
+src/
+title_passage_map.p

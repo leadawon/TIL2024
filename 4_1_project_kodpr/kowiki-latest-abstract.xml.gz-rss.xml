@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+        <channel>
+                <title>abstract.xml.gz</title>
+                <link>http://download.wikimedia.org/kowiki/20240420</link>
+                <description>Wikimedia dump updates for kowiki</description>
+                <item>
+                        <title>http://download.wikimedia.org/kowiki/20240420</title>
+                        <link>http://download.wikimedia.org/kowiki/20240420</link>
+                        <description>&lt;a href="http://download.wikimedia.org/kowiki/20240420/kowiki-20240420-abstract.xml.gz"&gt;kowiki-20240420-abstract.xml.gz&lt;/a&gt;</description>
+                        <pubDate>Mon, 22 Apr 2024 10:28:11 GMT</pubDate>
+                </item>
+        </channel>
+</rss>
